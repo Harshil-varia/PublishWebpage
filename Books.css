@@ -1,0 +1,125 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  background-color: rgba(148, 215, 133, 0.238);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: x-large;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 250px;
+}
+
+p{
+  padding-bottom: 20px;
+}
+
+.container2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  color: white;
+  padding: 12px 20px;
+  font-size: large;
+  width: 100%;
+  padding: 15px 32px;
+  font-size: larger;
+
+}
+
+.opt3{
+  color: black;
+  font-size:medium;
+}
+
+
+h1~p{
+  width: 100%;
+  border: 3px solid black;
+}
+
+img{
+    border: 10px solid rgb(94, 16, 16);
+    padding: 10px;
+    margin: 3px;
+    background-color: rgb(147, 155, 208);
+}
+
+a:link {
+    color: red;
+    
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue;
+}
+
+
+/* Tablet layout*/
+@media screen and (min-width: 1000px) and (max-width:1440px ){
+  body{
+    background-color: rgb(69, 147, 141);
+    color: rgb(219, 225, 227);
+    text-align: center;
+    width: 100%;
+    font-size: x-large;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+    align-items: center;
+
+  }
+
+  h1~p{
+    width: 100%;
+    border: 3px solid black;
+  }
+
+  div>p {
+    width: 50%;
+    margin: auto;
+    font-size: 1.5rem;
+  }
+
+}
+
+@media screen and (min-width: 400px) and (max-width:1000px){
+  body{
+    background-color: rgb(227, 126, 79);
+    color: white;
+  }
+
+  header {
+    flex-direction: row;
+    background-color: rgba(148, 215, 133, 0.238);
+    justify-content:space-between;
+    padding: 1rem 2rem;
+  }
+
+  .container{
+    display: flex;
+  }
+
+  p {
+    width: 80%;
+    font-size: 1.3rem;
+  }
+}
