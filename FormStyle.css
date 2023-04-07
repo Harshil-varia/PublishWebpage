@@ -1,0 +1,113 @@
+*{
+    box-sizing:border-box;
+}
+
+h1+p{
+    font-weight: bold;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: larger;
+    padding: 10px;
+}
+
+.Content{
+    background-color: antiquewhite;
+    padding:  5px 20px 15px 20px ;
+    border: 3px solid aquamarine;
+    border-radius: 10px;
+}
+
+input[type="text"], textarea{
+    width: 100% ;
+    padding: 10px;
+    border: 3px solid chocolate ;
+}
+
+.MainH{
+    text-align: center;
+}
+
+#submit{
+    
+    background-color: rgb(86, 152, 86);
+    color: white;
+    padding: 12px 20px;
+    font-size: large;
+    width: 100%;
+}
+
+/* Tablet layout*/
+@media screen and (min-width: 1000px) and (max-width:1440px ){
+    body{
+        width: 100%;
+        height: 50%;
+    }
+
+    label,h1{
+        color: white;
+    }
+
+
+
+    .Content{
+        background-color: rgb(40, 68, 85);
+        padding:  5px 20px 15px 20px ;
+        border: 3px solid rgb(100, 138, 160);
+        border-radius: 10px;
+    }
+    
+    input[type="text"], textarea{
+        width: 100% ;
+        padding: 10px;
+        border: 3px solid rgb(236, 107, 14) ;
+    }
+
+    #submit{
+    
+        background-color: rgb(27, 29, 28);
+        color: white;
+        padding: 12px 20px;
+        font-size: large;
+        width: 100%;
+    }
+
+
+}
+
+/* Mobile Layout*/
+@media screen and ( min-width: 400px) and (max-width:1000px) {
+
+    body{
+        width: 100%;
+        height: 95%;
+    }
+
+    .Content{
+        background-color: rgb(90, 143, 98);
+        padding:  5px 20px 15px 20px ;
+        border: 3px solid rgb(100, 138, 160);
+        border-radius: 10px;
+    }
+    
+    input[type="text"], textarea{
+        width: 100% ;
+        padding: 10px;
+        border: 3px solid rgb(236, 107, 14) ;
+    }
+
+    #submit{
+    
+        background-color: rgb(27, 29, 28);
+        color: white;
+        padding: 12px 20px;
+        font-size: large;
+        width: 100%;
+    }
+
+}
+
+

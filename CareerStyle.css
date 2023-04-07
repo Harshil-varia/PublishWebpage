@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(227, 241, 228);
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1000px;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.first{
+    list-style: square;
+}
+
+.second{
+    list-style: square;
+}
+
+.insid{
+    font-size: 100px !important;
+    color: #43571cc9;
+
+}
+a:link {
+    color: red;
+  }
+
+  a:visited {
+    color: green;
+  }
+  
+
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue;
+}
+
+img{
+    border: 8px solid rgb(26, 68, 68);
+    padding: 5px;
+    margin: 4px;
+    object-fit: fill;
+}
+    
+video{
+    border: 4px solid black;
+    justify-content: center;
+    padding: 3px;
+}
